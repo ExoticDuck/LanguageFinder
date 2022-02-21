@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/LanguageFinder/static/css/main.f5c5541f.css",
+    "main.js": "/LanguageFinder/static/js/main.1c6d340f.js",
+    "static/js/787.1173d650.chunk.js": "/LanguageFinder/static/js/787.1173d650.chunk.js",
+    "index.html": "/LanguageFinder/index.html",
+    "main.f5c5541f.css.map": "/LanguageFinder/static/css/main.f5c5541f.css.map",
+    "main.1c6d340f.js.map": "/LanguageFinder/static/js/main.1c6d340f.js.map",
+    "787.1173d650.chunk.js.map": "/LanguageFinder/static/js/787.1173d650.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5c5541f.css",
+    "static/js/main.1c6d340f.js"
+  ]
+}
