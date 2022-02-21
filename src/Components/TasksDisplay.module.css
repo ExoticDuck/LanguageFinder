@@ -1,22 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 .TasksDisplay {
     padding: 30px;
+    min-width: none;
+    min-width: 1000px;
     width: 50%;
-    height: 400px;
+    min-height: 300px;
+    height: fit-content;
     margin: 0 auto;
-    border: 2px solid lightcoral;
+    margin-top: 30px;
+    border: 2px solid #A3F6F7;
     border-radius: 5px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #07575B;
+    background-color: rgba(10, 10, 48, 0.5);
 }
 
 .Task {
+    font-family: 'Press Start 2P', cursive;
+    line-height: 1.8;
+    font-size: 12px;
     height: max-content;
-    color: #084b5c;
-    background-color: bisque;
+    color: rgb(46, 184, 230);
+    /* background-color: bisque; */
     border-radius: 5px;
-    margin-left: 5px;
+    margin-left: 25px;
+    margin-top: 15px;
+    text-align: center;
 }

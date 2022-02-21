@@ -43,11 +43,11 @@ function App() {
     {id: 20, name: "Python", tasks: ["Back-end", "Data processing", "Full Stack", "DevOps"], selected: false},
     {id: 21, name: "Elixir", tasks: ["Full Stack"], selected: false},
     {id: 22, name: "ABAP", tasks: ["Full Stack"], selected: false},
-    {id: 23, name: "Haskell", tasks: ["-"], selected: false}, //!
+    {id: 23, name: "Haskell", tasks: ["for creating tools for text processing, parsing", "creating filter systems for spam processing"], selected: false}, //!
     {id: 24, name: "Assembler", tasks: ["Driver development"], selected: false},
-    {id: 25, name: "R", tasks: ["data visualization", "data collection and analysis", "working with statistics, finding anomalies in data", "search for patterns and deviations in data", "verification and confirmation of hypotheses"], selected: false},
-    {id: 26, name: "Perl", tasks: ["-"], selected: false},//!
-    {id: 27, name: "Pascal/Delphi", tasks: ["-"], selected: false},//!
+    {id: 25, name: "R", tasks: ["data visualization", "data collection and analysis", "search for patterns and deviations in data", "verification and confirmation of hypotheses"], selected: false},
+    {id: 26, name: "Perl", tasks: ["system administration", "web development", "network programming", "games", "bioinformatics"], selected: false},//!
+    {id: 27, name: "Pascal/Delphi", tasks: ["used for teaching programming"], selected: false},//!
     {id: 28, name: "Erlang", tasks: ["Back-end"], selected: false}
   ]);
   let [tasks, setTasks] = useState<ArrayTaskType>([

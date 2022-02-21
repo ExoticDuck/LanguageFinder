@@ -1,6 +1,8 @@
 import React from 'react';
 import { ArrayTaskType, TechnologiesType } from '../App';
 import s from "./Catalogue.module.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCodeCompare} from '@fortawesome/free-solid-svg-icons'
 
 type CataloguePropsType = {
     technologies: TechnologiesType
@@ -60,7 +62,9 @@ const Catalogue: React.FC<CataloguePropsType> = (props) => {
     
     return (
         <div className={props.choseTasks ? s.CatalogueForTasks : s.Catalogue}>
-            <button className={s.Button} onClick={() => {props.choseTasksCallback(!props.choseTasks)}}>Tasks</button>
+            <button className={s.Button} onClick={() => {props.choseTasksCallback(!props.choseTasks)}}>
+            <FontAwesomeIcon icon={faCodeCompare} />
+            </button>
             {CatalogueItems}
         </div>
     )

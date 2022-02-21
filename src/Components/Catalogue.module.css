@@ -1,66 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap');
 
+/* styles for top block */
+
 .Catalogue {
     margin-bottom: 50px;
-    padding: 30px;
+    padding: 20px 70px 20px 20px;
+    min-width: 1000px;
     width: 50%;
     height: 320px;
     margin: 0 auto;
-    border: 2px solid lightcoral;
+    border: 2px solid #A3F6F7;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #07575B;
+    background-color: rgba(10, 10, 48, 0.5);
     position: relative;
 }
 .CatalogueForTasks {
     margin-bottom: 50px;
-    padding: 30px;
+    padding: 20px 70px 20px 20px;
     width: 50%;
-    height: 500px;
+    min-width: 1000px;
+    height: 450px;
     margin: 0 auto;
-    border: 2px solid lightcoral;
+    border: 2px solid #A3F6F7;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
-    background-color: #07575B;
+    justify-content: space-around;
+    background-color: rgba(10, 10, 48, 0.5);
     position: relative;
 }
 .CatalogueForTasks .CatalogueItem{
-    font-family: 'Rubik', sans-serif;
-    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
     height: 35px;
-    width: 300px;
+    width: 400px;
     text-align: center;
     line-height: 35px;
     color: rgb(46, 184, 230);
     cursor: pointer;
 }
 .CatalogueForTasks .CatalogueItemSelected{
-    font-family: 'Rubik', sans-serif;
-    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
     height: 35px;
-    width: 300px;
+    width: 400px;
     text-align: center;
     line-height: 35px;
-    color: #C4DFE6;
-    background-color: #66A5AD;
+    color: #fdbe34;
+    /* background-color: #66A5AD; */
     border-radius: 5px;
-    border-bottom: 2px solid #C4DFE6;
+    /* border-bottom: 2px solid #C4DFE6; */
     cursor: pointer;
 }
 
 .CatalogueItem {
-    font-family: 'Rubik', sans-serif;
-    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
     height: 35px;
-    width: 130px;
+    width: 190px;
     text-align: center;
     line-height: 35px;
     color: rgb(46, 184, 230);
@@ -68,30 +72,40 @@
 }
 
 .CatalogueItemSelected {
-    font-family: 'Rubik', sans-serif;
-    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
     height: 35px;
-    width: 130px;
+    width: 190px;
     text-align: center;
     line-height: 35px;
-    color: #C4DFE6;
-    background-color: #66A5AD;
+    color: #fdbe34;
+    /* background-color: #66A5AD; */
     border-radius: 5px;
-    border-bottom: 2px solid #C4DFE6;
+    /* border-bottom: 2px solid #C4DFE6; */
     cursor: pointer;
 }
 
 .CatalogueItem:hover {
-   background-color: #66A5AD;
-   border-bottom: 2px solid #C4DFE6;
+   /* background-color: #66A5AD; */
+   /* border-bottom: 2px solid #C4DFE6; */
+   color: #fdbe34;
    border-radius: 5px;
 }
 
 .Button {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 5px;
+    right: 5px;
     width: 60px;
     height: 60px;
     border-radius: 50%;
+    background-color: inherit;
+    border: 2px solid #A3F6F7;
+    color: rgb(46, 184, 230);
+    font-size: 30px;
+}
+
+.Button:hover {
+    color: #fdbe34;
+    border: 2px solid #fdbe34;
 }

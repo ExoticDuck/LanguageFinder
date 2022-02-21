@@ -8,8 +8,12 @@
 }
 
 .App {
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   padding: 50px;
-  background-color: #003B46;
+  /* background-color: #003B46; */
+  background-image: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
