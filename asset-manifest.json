@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/LanguageFinder/static/css/main.3a9e97b0.css",
+    "main.css": "/LanguageFinder/static/css/main.1508fa20.css",
     "main.js": "/LanguageFinder/static/js/main.1ec09507.js",
     "static/js/787.1173d650.chunk.js": "/LanguageFinder/static/js/787.1173d650.chunk.js",
     "static/media/background.jpg": "/LanguageFinder/static/media/background.49f957daf1605e0f28e9.jpg",
     "index.html": "/LanguageFinder/index.html",
-    "main.3a9e97b0.css.map": "/LanguageFinder/static/css/main.3a9e97b0.css.map",
+    "main.1508fa20.css.map": "/LanguageFinder/static/css/main.1508fa20.css.map",
     "main.1ec09507.js.map": "/LanguageFinder/static/js/main.1ec09507.js.map",
     "787.1173d650.chunk.js.map": "/LanguageFinder/static/js/787.1173d650.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a9e97b0.css",
+    "static/css/main.1508fa20.css",
     "static/js/main.1ec09507.js"
   ]
 }
