@@ -1,0 +1,22 @@
+.TasksDisplay {
+    padding: 30px;
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px solid lightcoral;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #07575B;
+}
+
+.Task {
+    height: max-content;
+    color: #084b5c;
+    background-color: bisque;
+    border-radius: 5px;
+    margin-left: 5px;
+}
