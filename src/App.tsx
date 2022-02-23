@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Catalogue from './Components/Catalogue';
 import TasksDisplay from './Components/TasksDisplay';
+import Modal from './Components/Modal';
 
 export type TechnologiesType = Array<TechnologyType>
 export type TechnologyType = {
@@ -74,6 +75,8 @@ function App() {
 
   let [choseTasks, setChoseTasks] = useState<boolean>(false);
 
+  const [modalActive, setModalActive] = useState<boolean>(true);
+
   const SelectTechnology = (id: number, selected: boolean) => {
     let result = technologies.map(e => e.id === id ? {...e, selected: selected} : {...e, selected: false});
     
@@ -93,6 +96,7 @@ function App() {
   
   return (
     <div className="App">
+      <Modal active={modalActive} setActive={setModalActive}/>
       <Catalogue technologies={technologies} selectTechnology={SelectTechnology} selectTask={SelectTask} choseTasks={choseTasks} choseTasksCallback={ChoseTasksCallback} tasks={tasks}/>
       <TasksDisplay tasks={TasksForDisplay} choseTasks={choseTasks}/>
     </div>
