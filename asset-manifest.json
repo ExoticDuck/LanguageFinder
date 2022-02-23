@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/LanguageFinder/static/css/main.1508fa20.css",
-    "main.js": "/LanguageFinder/static/js/main.1ec09507.js",
+    "main.css": "/LanguageFinder/static/css/main.bcd243f7.css",
+    "main.js": "/LanguageFinder/static/js/main.8f631d6f.js",
     "static/js/787.1173d650.chunk.js": "/LanguageFinder/static/js/787.1173d650.chunk.js",
+    "static/media/space-gif.gif": "/LanguageFinder/static/media/space-gif.f1db51ef9d3f8939e286.gif",
     "static/media/background.jpg": "/LanguageFinder/static/media/background.49f957daf1605e0f28e9.jpg",
     "index.html": "/LanguageFinder/index.html",
-    "main.1508fa20.css.map": "/LanguageFinder/static/css/main.1508fa20.css.map",
-    "main.1ec09507.js.map": "/LanguageFinder/static/js/main.1ec09507.js.map",
+    "main.bcd243f7.css.map": "/LanguageFinder/static/css/main.bcd243f7.css.map",
+    "main.8f631d6f.js.map": "/LanguageFinder/static/js/main.8f631d6f.js.map",
     "787.1173d650.chunk.js.map": "/LanguageFinder/static/js/787.1173d650.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1508fa20.css",
-    "static/js/main.1ec09507.js"
+    "static/css/main.bcd243f7.css",
+    "static/js/main.8f631d6f.js"
   ]
 }
